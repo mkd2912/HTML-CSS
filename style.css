@@ -1,0 +1,47 @@
+body{
+    background-color: antiquewhite;
+}
+label{
+    display: inline-block;
+}
+.blink {
+    animation: blinker 3s linear infinite;
+    color:aqua;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    background-color:brown;
+    height:3.3rem;
+}
+@keyframes blinker {
+    30% {
+        opacity: 0;
+    }
+}
+#from-details{
+    display: flex;
+    justify-content: left;
+    width: 500px;
+}
+p{
+    color:darkorange;
+}
+#box {
+    
+    width: 300px;
+    height: 128px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #0000cc;
+    border-radius: 10px;
+    color: #0000cc;
+    display: none;
+    
+  }
+  .box-item{
+    display: flex;
+    justify-content: center;
+  }
+  #box:target {display: block;}
+
+  
