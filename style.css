@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;
     max-width:100%;
     height: auto;
+    object-fit:contain;
 
 }
 .blink {
@@ -15,6 +16,7 @@ body{
     background-color:brown;
     height:3.7rem;
     text-orientation: upright;
+    object-fit:contain;
 }
 @keyframes blinker {
     100% {
